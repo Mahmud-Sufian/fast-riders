@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
 .App-logo {
@@ -27,6 +27,17 @@
 .App-link {
   color: #61dafb;
 }
+
+/* i am designing my new spa */
+ 
+.app img{
+  height: 50%;
+}
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

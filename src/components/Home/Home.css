@@ -1,0 +1,25 @@
+.vehicle-container{
+    display: grid;
+    justify-content:center;
+    /* margin-top: 200px; */
+    height: 100vh;
+    grid-template-columns: repeat(4, 200px);
+    background-image: linear-gradient(rgba(180, 81, 81, 0.5), rgba(168, 77, 77, 0.5)), url(../../images/town.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 320px) {
+    .vehicle-container{
+        display: grid;
+        justify-content:center;
+        /* margin-top: 200px; */ 
+        padding-left: 30px;
+        height: auto;
+        grid-template-columns: repeat(1, 200px);
+        background-image: linear-gradient(rgba(180, 81, 81, 0.5), rgba(168, 77, 77, 0.5)), url(../../images/town.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }

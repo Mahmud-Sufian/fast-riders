@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    height: auto;
+    width: 100%;
+}
+nav h2{
+    color: #fff;
+     margin-top: 10px;
+     font-weight: bold;
+}
+li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 320px) {
+    nav{
+        display: grid; 
+        width: 320px;
+    }
+    nav h2{
+        margin-left: 60px;
+    }
+    nav li button{
+        margin-left: 80px;
+    }
+  }

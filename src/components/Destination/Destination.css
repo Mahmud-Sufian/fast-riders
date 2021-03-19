@@ -1,0 +1,32 @@
+.pick-container label{
+    margin: 0; 
+}
+.pick-container input{
+    margin: 0;
+    background-color: rgb(156, 223, 156);
+    color: green;
+    outline-color: green;
+}
+.pick-container{
+    background-color: rgb(87, 156, 156);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.pick-container input[type=submit]{
+    background-color: rgb(65, 173, 65);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid green;
+}
+.search-img{
+    height: 40px;
+    width: 40px;
+}
+.result-dynamic-container{
+    display: flex;
+    justify-content: space-between; 
+    background-color: honeydew;
+    margin-top: 10px;
+}
